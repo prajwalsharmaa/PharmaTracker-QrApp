@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9fb;
+  color: #2c2c2c;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #6a0dad, #00c2b5);
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.product-card h2 {
+  color: #6a0dad;
+  margin-bottom: 10px;
+}
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #6a0dad;
+}
+
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 30px;
+  border-left: 3px solid #00c2b5;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+  background: #ffffff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.timeline-item:hover {
+  transform: translateX(5px);
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  background: #00c2b5;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+
+.timeline-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #6a0dad;
+}
+
+.timeline-item p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  background: #6a0dad;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
+.details-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #00c2b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+
+.details-btn:hover {
+  background: #009a91;
+}
+
+.company-details {
+  margin-top: 10px;
+  padding: 8px;
+  background: #f0fdfa;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.hidden {
+  display: none;
+}
