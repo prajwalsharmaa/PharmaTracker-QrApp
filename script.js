@@ -1,5 +1,5 @@
 const productData = {
-  name: "Metronidazole",
+  name: "Paracetamol",
   description: "Paracetamol is a medication used to treat fever and mild to moderate pain.",
   batchNumber: "BATCH-001",
   expiryDate: "2026-05-10",
